@@ -1,0 +1,480 @@
+/* Global Styling */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana,
+    "sans-serif";
+}
+
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+.main-heading {
+  width: 100%;
+  text-align: center;
+}
+
+.main-heading h2 {
+  text-transform: uppercase;
+  font-size: 4rem;
+  margin-bottom: 14px;
+}
+
+.main-heading p {
+  color: #b2b5c6;
+  margin-bottom: 38px;
+  font-size: 0.95rem;
+}
+
+.main-heading hr {
+  border: thin solid #ff9000;
+  margin: 0 auto;
+  width: 22%;
+  display: block;
+}
+
+/* Section 1 Styling */
+#sec1 {
+  background: url("../images/Banner-bg.jpg") no-repeat, #eff1f3;
+}
+
+#sec1 header div {
+  width: 1140px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 7px 0 10px;
+}
+
+#sec1 header {
+  background-color: #0f1721;
+}
+
+#sec1 header h2 {
+  color: white;
+  text-transform: uppercase;
+  font-size: 1.9rem;
+  display: flex;
+  align-items: center;
+}
+
+#sec1 header h2 span {
+  color: #ff9000;
+}
+
+#sec1 header nav {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+}
+
+#sec1 header a {
+  color: white;
+  text-transform: capitalize;
+  text-decoration: none;
+}
+
+#sec1 .container article h2 {
+  color: white;
+  text-transform: uppercase;
+  font-size: 2.7rem;
+  line-height: 0.9em;
+  margin-bottom: 15px;
+}
+
+#sec1 .container article h2 span {
+  color: #ff9000;
+}
+
+#sec1 .container {
+  margin-top: 197px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#sec1 .container article p {
+  color: white;
+  font-style: italic;
+  font-weight: 500;
+  margin-bottom: 50px;
+}
+
+#sec1 .container article a {
+  color: white;
+  font-weight: 500;
+  text-transform: uppercase;
+  text-decoration: none;
+  background-color: rgba(71, 100, 126, 0.5);
+  padding: 17px 15px;
+  border: thin solid white;
+}
+
+#sec1 article + article {
+  background-image: url("../images/img1.jpg");
+  background-repeat: no-repeat;
+  height: 468px;
+  width: 65%;
+  position: relative;
+}
+
+#sec1 article #overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  display: flex;
+  justify-content: space-between;
+  height: 90px;
+  align-items: center;
+  padding: 0 30px;
+}
+
+#leftContent {
+  width: 33%;
+}
+
+#sec1 article div span {
+  color: white;
+}
+
+#sec1 article div span + span {
+  margin-left: 30px;
+}
+
+#sec1 article div h3 {
+  text-transform: uppercase;
+  color: white;
+}
+
+#sec1 article #overlay #spanned {
+  color: #e28509;
+  text-transform: capitalize;
+  margin-left: 80px;
+}
+
+/* Section 2 Styling */
+#sec2 {
+  padding: 86px 0 114px;
+}
+
+#sec2 header + div {
+  display: flex;
+  justify-content: center;
+}
+
+#sec2 nav {
+  border: thin solid #d5d5d5;
+  margin: 90px auto 0;
+  display: flex;
+}
+
+#sec2 a {
+  display: inline-block;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #999295;
+  font-weight: 500;
+  padding: 18px 40px;
+}
+#sec2 a + a {
+  border-left: thin solid #e6e6e6;
+}
+
+#sec2 a:hover {
+  background-color: #ff9000;
+  color: white;
+}
+
+#sec2 div img {
+  border: thin solid #999;
+  padding: 6px;
+  align-self: center;
+}
+
+#sec2 div article {
+  width: 60%;
+  align-self: top;
+}
+#sec2 div article h2 {
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+#sec2 div article h3 {
+  font-weight: 400;
+  color: #ff8c00;
+  text-transform: uppercase;
+}
+
+#sec2 div + div {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 60px;
+}
+
+#sec2 div article p {
+  color: #979797;
+  margin-top: 25px;
+}
+
+/* Section 3 Styling */
+#sec3 {
+  background: url("../images/Services-bg.jpg");
+  padding-top: 98px;
+  padding-bottom: 105px;
+}
+
+#sec3 .main-heading h2 {
+  color: white;
+}
+
+#sec3 .main-heading p {
+  color: white;
+}
+
+#sec3 .container div {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 76px;
+}
+
+#sec3 .container div article {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+#sec3 .container div #arc1 {
+  background: url("../images/Development-cn.png") center 30px,
+    url("../images/Development-bg.jpg");
+  background-repeat: no-repeat;
+  width: 245px;
+  height: 387px;
+  opacity: 0.7;
+}
+
+#sec3 .container div #arc1:hover {
+  background: url("../images/Develop-hover-icn.png") no-repeat center 30px,
+    url("../images/Development-bg.jpg");
+  cursor: pointer;
+}
+
+#sec3 .container div #arc2 {
+  background: url("../images/desgin-icn.png") center 30px,
+    url("../images/desgin-bg.jpg");
+  background-repeat: no-repeat;
+  width: 245px;
+  height: 387px;
+  opacity: 0.7;
+}
+
+#sec3 .container div #arc2:hover {
+  background: url("../images/desgin-hover-icn.png") no-repeat center 30px,
+    url("../images/desgin-bg.jpg");
+  cursor: pointer;
+}
+
+#sec3 .container div #arc3 {
+  background: url("../images/concept-icn.png") center 30px,
+    url("../images/concept-bg.jpg");
+  background-repeat: no-repeat;
+  width: 245px;
+  height: 387px;
+  opacity: 0.7;
+}
+
+#sec3 .container div #arc3:hover {
+  background: url("../images/concept-hover-icn.png") no-repeat center 30px,
+    url("../images/concept-bg.jpg");
+  cursor: pointer;
+}
+
+#sec3 .container div #arc4 {
+  background: url("../images/systam-icn.png") center 30px,
+    url("../images/systam-bg.jpg");
+  background-repeat: no-repeat;
+  width: 245px;
+  height: 387px;
+  opacity: 0.7;
+}
+
+#sec3 .container div #arc4:hover {
+  background: url("../images/systam-hover-icn.png") no-repeat center 30px,
+    url("../images/systam-bg.jpg");
+  cursor: pointer;
+}
+
+/* Section 4 Styling */
+#sec4 {
+  background-color: #ececec;
+  padding-bottom: 118px;
+  padding-top: 92px;
+}
+
+#sec4 .main-heading p {
+  color: #9194a2;
+}
+
+#sec4 article {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+#sec4 header + article {
+  margin-top: 75px;
+}
+
+#sec4 article div {
+  height: 103px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#sec4 article .div1 {
+  background-color: #ff9406;
+  text-transform: uppercase;
+  font-weight: 600;
+  width: 4.9%;
+}
+
+#sec4 article .div2 {
+  color: #ff9406;
+  background-color: #2c2c2c;
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  width: 17.8%;
+}
+
+#sec4 article .div3 {
+  color: white;
+  background-color: #2c2c2c;
+  text-transform: uppercase;
+  font-weight: 600;
+  width: 13.8%;
+}
+
+#sec4 article .specs {
+  background-color: white;
+  display: flex;
+  text-align: center;
+  color: #949595;
+  text-transform: uppercase;
+  font-weight: 500;
+  width: 60.5%;
+}
+
+#sec4 article .specs div {
+  width: 25%;
+}
+
+#sec4 article .specs div + div {
+  border-left: thin solid #949595;
+  top: 50%;
+}
+
+/* Section 5 Styling */
+#sec5 {
+  background-image: url("../images/Contact-bg.jpg");
+  padding-top: 95px;
+  padding: 95px 0 77px;
+}
+
+#sec5 .main-heading h2 {
+  color: white;
+}
+
+#sec5 .main-heading p {
+  color: white;
+}
+
+/* Section 6 Styling  */
+#sec6 {
+  background-color: black;
+  padding: 73px 0 95px;
+}
+
+#sec6 .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+#sec6 form {
+  width: 46.5%;
+}
+
+#sec6 form * {
+  width: 100%;
+  padding: 20px 0 17px 18px;
+  margin-bottom: 20px;
+}
+
+#sec6 form #msg-input {
+  padding-bottom: 102px;
+}
+
+#sec6 form input[type="submit"] {
+  color: white;
+  background-color: #e28509;
+}
+
+#sec6 article {
+  width: 40%;
+}
+
+#sec6 article h2 {
+  color: #f98e03;
+  text-transform: uppercase;
+  font-size: 3.3rem;
+  margin-bottom: 33px;
+}
+
+#sec6 article p {
+  color: white;
+  width: 88%;
+}
+
+#sec6 article img {
+  max-width: 100%;
+  align-self: flex-start;
+}
+
+#sec6 article div {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+#sec6 article #last-div {
+  margin-bottom: 52px;
+}
+
+#sec6 article a + a {
+  margin-left: 17px;
+}
+
+/* Footer Styling */
+body > footer {
+  background-image: url("../images/Get-bg.jpg");
+  padding: 30px 0;
+}
+
+body > footer p {
+  text-align: center;
+  text-transform: uppercase;
+  color: #979392;
+}
